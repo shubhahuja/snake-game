@@ -172,8 +172,7 @@ while game_status:
     the_snake.update_snakes(snake)
     the_snake.update_master(snake)
     snake.update_cord(x1,y1)
-    ##the_snake.update_snakes(snake)
-    print(len(the_snake.snakelist))
+
 
 
     if snake.x==fruit.x and snake.y==fruit.y:
